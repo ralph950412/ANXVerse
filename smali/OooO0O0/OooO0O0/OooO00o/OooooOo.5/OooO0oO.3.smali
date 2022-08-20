@@ -1,40 +1,46 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oO;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oo;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Ljava/util/function/BiConsumer;
 
 
-# instance fields
-.field private final synthetic OooO00o:Lcom/android/camera/tts/TTSHelper$Listener;
-
-.field private final synthetic OooO0O0:Z
+# static fields
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oo;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/android/camera/tts/TTSHelper$Listener;Z)V
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oo;
+
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oo;-><init>()V
+
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oo;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oo;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oO;->OooO00o:Lcom/android/camera/tts/TTSHelper$Listener;
-
-    iput-boolean p2, p0, LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oO;->OooO0O0:Z
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public final accept(Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 0
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oO;->OooO00o:Lcom/android/camera/tts/TTSHelper$Listener;
+    check-cast p1, Lcom/android/camera/tts/TTSHelper$BatchListener;
 
-    iget-boolean v1, p0, LOooO0O0/OooO0O0/OooO00o/OooooOo/OooO0oO;->OooO0O0:Z
+    check-cast p2, Landroid/util/Pair;
 
-    invoke-static {v0, v1}, Lcom/android/camera/tts/TTSHelper;->OooO00o(Lcom/android/camera/tts/TTSHelper$Listener;Z)V
+    invoke-virtual {p1, p2}, Lcom/android/camera/tts/TTSHelper$BatchListener;->onError(Landroid/util/Pair;)V
 
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOo;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOO;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -7,18 +7,18 @@
 
 
 # static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOo;
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOO;
 
 
 # direct methods
 .method static synthetic constructor <clinit>()V
     .locals 1
 
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOo;
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOO;
 
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOo;-><init>()V
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOO;-><init>()V
 
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOo;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOo;
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOO;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooOOOO;
 
     return-void
 .end method
@@ -38,7 +38,7 @@
 
     check-cast p1, Lcom/android/camera/module/BaseModule;
 
-    invoke-static {p1}, Lcom/android/camera/module/impl/component/ConfigChangeImpl;->OooO0oo(Lcom/android/camera/module/BaseModule;)V
+    invoke-static {p1}, Lcom/android/camera/module/impl/component/ConfigChangeImpl;->OooOOoo(Lcom/android/camera/module/BaseModule;)V
 
     return-void
 .end method

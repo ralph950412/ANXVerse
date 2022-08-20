@@ -1,24 +1,24 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOOo;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOoO;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/util/function/Predicate;
+.implements Lcom/android/camera/statistic/CameraStatUtils$ParameterBuilder;
 
 
 # static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOOo;
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOoO;
 
 
 # direct methods
 .method static synthetic constructor <clinit>()V
     .locals 1
 
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOOo;
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOoO;
 
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOOo;-><init>()V
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOoO;-><init>()V
 
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOOo;->OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOOo;
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOoO;->OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOoO;
 
     return-void
 .end method
@@ -33,14 +33,10 @@
 
 
 # virtual methods
-.method public final test(Ljava/lang/Object;)Z
+.method public final update(Ljava/util/Map;)V
     .locals 0
 
-    check-cast p1, Lcom/android/camera/dualvideo/util/UserSelectData;
+    invoke-static {p1}, Lcom/android/camera/dualvideo/DualVideoRecordModule;->OooO0OO(Ljava/util/Map;)V
 
-    invoke-static {p1}, Lcom/android/camera/dualvideo/DualVideoRecordModule;->OooO00o(Lcom/android/camera/dualvideo/util/UserSelectData;)Z
-
-    move-result p1
-
-    return p1
+    return-void
 .end method

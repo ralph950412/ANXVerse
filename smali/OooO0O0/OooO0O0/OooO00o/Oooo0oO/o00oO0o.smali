@@ -1,48 +1,34 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o00oO0o;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o00oO0O;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/util/Comparator;
+.implements Lcom/android/camera/statistic/CameraStatUtils$ParameterBuilder;
 
 
-# static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o00oO0o;
+# instance fields
+.field private final synthetic OooO00o:Lcom/android/camera/dualvideo/DualVideoRecordModule;
 
 
 # direct methods
-.method static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o00oO0o;
-
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o00oO0o;-><init>()V
-
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o00oO0o;->OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o00oO0o;
-
-    return-void
-.end method
-
-.method private synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lcom/android/camera/dualvideo/DualVideoRecordModule;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o00oO0O;->OooO00o:Lcom/android/camera/dualvideo/DualVideoRecordModule;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
-    .locals 0
+.method public final update(Ljava/util/Map;)V
+    .locals 1
 
-    check-cast p1, Lcom/android/camera/dualvideo/util/UserSelectData;
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o00oO0O;->OooO00o:Lcom/android/camera/dualvideo/DualVideoRecordModule;
 
-    check-cast p2, Lcom/android/camera/dualvideo/util/UserSelectData;
+    invoke-virtual {v0, p1}, Lcom/android/camera/dualvideo/DualVideoRecordModule;->OooO0O0(Ljava/util/Map;)V
 
-    invoke-static {p1, p2}, Lcom/android/camera/dualvideo/DualVideoRecordModule;->OooO00o(Lcom/android/camera/dualvideo/util/UserSelectData;Lcom/android/camera/dualvideo/util/UserSelectData;)I
-
-    move-result p1
-
-    return p1
+    return-void
 .end method

@@ -1,20 +1,20 @@
-.class public LOooO0O0/OooO00o/OooO00o/OooOoOO/OooO0Oo;
+.class public LOooO0O0/OooO00o/OooO00o/OooOoOO/OooO0OO;
 .super LOooO0O0/OooO00o/OooO00o/OooOoOO/OooO0o;
-.source "LottieInterpolatedIntegerValue.java"
+.source "LottieInterpolatedFloatValue.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "LOooO0O0/OooO00o/OooO00o/OooOoOO/OooO0o<",
-        "Ljava/lang/Integer;",
+        "Ljava/lang/Float;",
         ">;"
     }
 .end annotation
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/Integer;Ljava/lang/Integer;)V
+.method public constructor <init>(Ljava/lang/Float;Ljava/lang/Float;)V
     .locals 0
 
     invoke-direct {p0, p1, p2}, LOooO0O0/OooO00o/OooO00o/OooOoOO/OooO0o;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -22,7 +22,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/Integer;Ljava/lang/Integer;Landroid/view/animation/Interpolator;)V
+.method public constructor <init>(Ljava/lang/Float;Ljava/lang/Float;Landroid/view/animation/Interpolator;)V
     .locals 0
 
     invoke-direct {p0, p1, p2, p3}, LOooO0O0/OooO00o/OooO00o/OooOoOO/OooO0o;-><init>(Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;)V
@@ -32,22 +32,22 @@
 
 
 # virtual methods
-.method public OooO00o(Ljava/lang/Integer;Ljava/lang/Integer;F)Ljava/lang/Integer;
+.method public OooO00o(Ljava/lang/Float;Ljava/lang/Float;F)Ljava/lang/Float;
     .locals 0
 
-    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
     move-result p1
 
-    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
 
     move-result p2
 
-    invoke-static {p1, p2, p3}, LOooO0O0/OooO00o/OooO00o/OooOoO/OooO0oO;->OooO00o(IIF)I
+    invoke-static {p1, p2, p3}, LOooO0O0/OooO00o/OooO00o/OooOoO/OooO0oO;->OooO0OO(FFF)F
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object p1
 
@@ -57,11 +57,11 @@
 .method public bridge synthetic OooO00o(Ljava/lang/Object;Ljava/lang/Object;F)Ljava/lang/Object;
     .locals 0
 
-    check-cast p1, Ljava/lang/Integer;
+    check-cast p1, Ljava/lang/Float;
 
-    check-cast p2, Ljava/lang/Integer;
+    check-cast p2, Ljava/lang/Float;
 
-    invoke-virtual {p0, p1, p2, p3}, LOooO0O0/OooO00o/OooO00o/OooOoOO/OooO0Oo;->OooO00o(Ljava/lang/Integer;Ljava/lang/Integer;F)Ljava/lang/Integer;
+    invoke-virtual {p0, p1, p2, p3}, LOooO0O0/OooO00o/OooO00o/OooOoOO/OooO0OO;->OooO00o(Ljava/lang/Float;Ljava/lang/Float;F)Ljava/lang/Float;
 
     move-result-object p1
 

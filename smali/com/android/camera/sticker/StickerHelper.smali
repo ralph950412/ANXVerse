@@ -10,11 +10,11 @@
 
 .field public static final STICKER_RES_PATH:Ljava/lang/String; = "sticker_res"
 
-.field public static mInstance:Lcom/android/camera/sticker/StickerHelper; = null
+.field public static mInstance:Lcom/android/camera/sticker/StickerHelper;
 
-.field public static sStickLocal:[Ljava/lang/String; = null
+.field public static sStickLocal:[Ljava/lang/String;
 
-.field public static sStickerEnable:Z = false
+.field public static sStickerEnable:Z
 
 
 # instance fields

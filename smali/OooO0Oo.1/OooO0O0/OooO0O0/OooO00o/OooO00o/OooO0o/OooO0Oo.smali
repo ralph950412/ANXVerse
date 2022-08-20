@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0Oo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0o/OooO0Oo;
+.class public final synthetic LOooO0Oo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0o/OooO0OO;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -16,7 +16,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, LOooO0Oo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0o/OooO0Oo;->OooO00o:Lmiuix/appcompat/internal/app/widget/actionbar/CollapseTitle;
+    iput-object p1, p0, LOooO0Oo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0o/OooO0OO;->OooO00o:Lmiuix/appcompat/internal/app/widget/actionbar/CollapseTitle;
 
     return-void
 .end method
@@ -26,9 +26,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, LOooO0Oo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0o/OooO0Oo;->OooO00o:Lmiuix/appcompat/internal/app/widget/actionbar/CollapseTitle;
+    iget-object v0, p0, LOooO0Oo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0o/OooO0OO;->OooO00o:Lmiuix/appcompat/internal/app/widget/actionbar/CollapseTitle;
 
-    invoke-static {v0}, Lmiuix/appcompat/internal/app/widget/actionbar/CollapseTitle;->OooO0O0(Lmiuix/appcompat/internal/app/widget/actionbar/CollapseTitle;)V
+    invoke-virtual {v0}, Lmiuix/appcompat/internal/app/widget/actionbar/CollapseTitle;->OooO00o()V
 
     return-void
 .end method

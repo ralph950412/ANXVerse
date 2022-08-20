@@ -8214,6 +8214,8 @@
     <public type="layout" name="zoom_ratio_toggle_view" id="0x7f0d0196" />
     <public type="layout" name="zoom_top_tip_layout" id="0x7f0d0197" />
     <public type="menu" name="vv_workspace_menu" id="0x7f0e0000" />
+    <public type="mipmap" name="ic_background" id="0x7f0f0003" />
+    <public type="mipmap" name="ic_foreground" id="0x7f0f0004" />
     <public type="mipmap" name="ic_mimoji" id="0x7f0f0001" />
     <public type="mipmap" name="launcher_ic_fg" id="0x7f0f0002" />
     <public type="mipmap" name="ic_launcher_camera" id="0x7f0f0000" />
@@ -10815,6 +10817,9 @@
     <public type="string" name="wideselfie_rotate_to_left_slowly" id="0x7f1209aa" />
     <public type="string" name="wideselfie_rotate_to_right_slowly" id="0x7f1209ab" />
     <public type="string" name="yesterday" id="0x7f1209ac" />
+    <public type="string" name="back_lisa" id="0x7f1209ad" />
+    <public type="string" name="back_lisa_global" id="0x7f1209ae" />
+    <public type="string" name="back_lisa_india" id="0x7f1209af" />
     <public type="style" name="AlertDialog" id="0x7f130000" />
     <public type="style" name="AlertDialog.AppCompat" id="0x7f130001" />
     <public type="style" name="AlertDialog.AppCompat.Light" id="0x7f130002" />

@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooO0oO;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooO0oo;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -6,17 +6,27 @@
 .implements Ljava/util/function/Consumer;
 
 
-# instance fields
-.field private final synthetic OooO00o:[I
+# static fields
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooO0oo;
 
 
 # direct methods
-.method public synthetic constructor <init>([I)V
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooO0oo;
+
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooO0oo;-><init>()V
+
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooO0oo;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooO0oo;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooO0oO;->OooO00o:[I
 
     return-void
 .end method
@@ -24,13 +34,11 @@
 
 # virtual methods
 .method public final accept(Ljava/lang/Object;)V
-    .locals 1
-
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OoooOO0/o00000OO/OooO00o/OooO0oO;->OooO00o:[I
+    .locals 0
 
     check-cast p1, Lcom/android/camera/module/BaseModule;
 
-    invoke-static {v0, p1}, Lcom/android/camera/module/impl/component/ConfigChangeImpl;->OooO00o([ILcom/android/camera/module/BaseModule;)V
+    invoke-static {p1}, Lcom/android/camera/module/impl/component/ConfigChangeImpl;->OooOO0O(Lcom/android/camera/module/BaseModule;)V
 
     return-void
 .end method

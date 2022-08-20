@@ -1,40 +1,44 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0o;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0O;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Ljava/util/concurrent/ThreadFactory;
 
 
-# instance fields
-.field private final synthetic OooO00o:Ljava/lang/String;
-
-.field private final synthetic OooO0O0:Ljava/lang/String;
+# static fields
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0O;
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0O;
+
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0O;-><init>()V
+
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0O;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0O;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0o;->OooO00o:Ljava/lang/String;
-
-    iput-object p2, p0, LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0o;->OooO0O0:Ljava/lang/String;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public final newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
+    .locals 0
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0o;->OooO00o:Ljava/lang/String;
+    invoke-static {p1}, Lcom/android/camera/log/FileLogger;->OooO00o(Ljava/lang/Runnable;)Ljava/lang/Thread;
 
-    iget-object v1, p0, LOooO0O0/OooO0O0/OooO00o/OoooO/OooOO0o;->OooO0O0:Ljava/lang/String;
+    move-result-object p1
 
-    invoke-static {v0, v1}, Lcom/android/camera/log/FileLogger;->OooO0Oo(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+    return-object p1
 .end method

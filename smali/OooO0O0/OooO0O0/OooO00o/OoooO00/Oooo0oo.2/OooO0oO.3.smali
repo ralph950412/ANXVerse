@@ -1,34 +1,42 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0oO;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0oo;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroid/view/View$OnClickListener;
 
 
-# instance fields
-.field private final synthetic OooO00o:Lcom/android/camera/fragment/clone/DoubleSlideSeekBar;
+# static fields
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0oo;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/android/camera/fragment/clone/DoubleSlideSeekBar;)V
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0oo;
+
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0oo;-><init>()V
+
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0oo;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0oo;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0oO;->OooO00o:Lcom/android/camera/fragment/clone/DoubleSlideSeekBar;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 1
+.method public final onClick(Landroid/view/View;)V
+    .locals 0
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0oO;->OooO00o:Lcom/android/camera/fragment/clone/DoubleSlideSeekBar;
-
-    invoke-virtual {v0}, Landroid/view/View;->invalidate()V
+    invoke-static {p1}, Lcom/android/camera/fragment/clone/VideoRecyclerViewAdapter;->OooO00o(Landroid/view/View;)V
 
     return-void
 .end method

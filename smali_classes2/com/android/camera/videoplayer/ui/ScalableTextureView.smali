@@ -12,7 +12,7 @@
 
 
 # static fields
-.field public static final SHOW_LOGS:Z = false
+.field public static final SHOW_LOGS:Z
 
 .field public static final TAG:Ljava/lang/String;
 

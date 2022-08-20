@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.android.camera" platformBuildVersionCode="30" platformBuildVersionName="11">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="com.android.camera" platformBuildVersionCode="30" platformBuildVersionName="11">
     <original-package android:name="com.android.camera"/>
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-feature android:name="android.hardware.camera"/>
@@ -58,6 +58,7 @@
     <uses-permission android:name="com.miui.maintenancemode.model.MaintenanceModeProvider.read" android:protectionLevel="normal"/>
     <uses-permission android:name="com.miui.maintenancemode.model.MaintenanceModeProvider.write" android:protectionLevel="normal"/>
     <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:backupAgent="com.android.camera.backup.CameraBackupAgent" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/camera_label" android:largeHeap="true" android:name="com.android.camera.CameraAppImpl" android:networkSecurityConfig="@xml/network_security_config" android:supportsRtl="true" android:theme="@style/ThemeCamera">
+        <provider android:authorities="com.android.camera.anxprovider" android:enabled="true" android:exported="false" android:name="com.android.camera.ANXProvider"/>
         <meta-data android:name="required_permissions" android:value="@string/required_permissions"/>
         <meta-data android:name="com.miui.bugreport.LOG_DIR" android:resource="@xml/log_paths"/>
         <meta-data android:name="maxBackup" android:value="10"/>
@@ -197,7 +198,7 @@
         <provider android:authorities="com.android.camera.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
         </provider>
-        <provider android:authorities="@string/provider_authority" android:exported="true" android:grantUriPermissions="true" android:name="com.xiaomi.camera.parallelservice.provider.ParallelProcessProvider" android:syncable="false"/>
+        <provider android:authorities="com.xiaomi.camera.parallelservice.provider.SpecialTypesProvider" android:exported="true" android:grantUriPermissions="true" android:name="com.xiaomi.camera.parallelservice.provider.ParallelProcessProvider" android:syncable="false"/>
         <provider android:authorities="com.android.camera.provider.bugreport" android:exported="true" android:name="com.miui.bugreport.logprovider.DumpLogProvider" android:readPermission="com.miui.bugreport.permission.DUMP_CACHED_LOG">
             <intent-filter>
                 <action android:name="com.miui.bugreport.intent.ACTION_DUMP_CACHED_LOG"/>

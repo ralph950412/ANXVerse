@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOoO/OooO0oo;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOoO/OooO0oO;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -6,17 +6,27 @@
 .implements Ljava/lang/Runnable;
 
 
-# instance fields
-.field private final synthetic OooO00o:Lcom/android/camera/fragment/settings/SmartGuideFragment;
+# static fields
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOoO/OooO0oO;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/android/camera/fragment/settings/SmartGuideFragment;)V
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOoO/OooO0oO;
+
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOoO/OooO0oO;-><init>()V
+
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOoO/OooO0oO;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOoO/OooO0oO;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOoO/OooO0oo;->OooO00o:Lcom/android/camera/fragment/settings/SmartGuideFragment;
 
     return-void
 .end method
@@ -24,11 +34,9 @@
 
 # virtual methods
 .method public final run()V
-    .locals 1
+    .locals 0
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOoO/OooO0oo;->OooO00o:Lcom/android/camera/fragment/settings/SmartGuideFragment;
-
-    invoke-static {v0}, Lcom/android/camera/fragment/settings/SmartGuideFragment;->OooO00o(Lcom/android/camera/fragment/settings/SmartGuideFragment;)V
+    invoke-static {}, Lcom/android/camera/fragment/settings/CameraPreferenceFragment;->OooO0Oo()V
 
     return-void
 .end method

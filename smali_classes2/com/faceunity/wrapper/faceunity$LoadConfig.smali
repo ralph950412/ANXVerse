@@ -15,7 +15,7 @@
 
 
 # static fields
-.field public static sLoadedLibrary:Z = false
+.field public static sLoadedLibrary:Z
 
 
 # direct methods

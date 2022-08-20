@@ -15,7 +15,7 @@
 
 
 # static fields
-.field public static final DEBUG_FPS:Z = false
+.field public static final DEBUG_FPS:Z
 
 .field public static final TAG:Ljava/lang/String;
 

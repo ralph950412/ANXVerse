@@ -1,46 +1,44 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0Oo;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0OO;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroid/view/animation/Interpolator;
 
 
-# instance fields
-.field private final synthetic OooO00o:Lcom/android/camera/fragment/clone/FragmentTimeFreezeProcess;
-
-.field private final synthetic OooO0O0:I
-
-.field private final synthetic OooO0OO:Z
+# static fields
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0OO;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/android/camera/fragment/clone/FragmentTimeFreezeProcess;IZ)V
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0OO;
+
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0OO;-><init>()V
+
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0OO;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0OO;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0Oo;->OooO00o:Lcom/android/camera/fragment/clone/FragmentTimeFreezeProcess;
-
-    iput p2, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0Oo;->OooO0O0:I
-
-    iput-boolean p3, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0Oo;->OooO0OO:Z
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 3
+.method public final getInterpolation(F)F
+    .locals 0
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0Oo;->OooO00o:Lcom/android/camera/fragment/clone/FragmentTimeFreezeProcess;
+    invoke-static {p1}, Lcom/android/camera/fragment/clone/FragmentCloneProcess;->OooO00o(F)F
 
-    iget v1, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0Oo;->OooO0O0:I
+    move-result p1
 
-    iget-boolean v2, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/Oooo0oo/OooO0Oo;->OooO0OO:Z
-
-    invoke-virtual {v0, v1, v2}, Lcom/android/camera/fragment/clone/FragmentTimeFreezeProcess;->OooO00o(IZ)V
-
-    return-void
+    return p1
 .end method

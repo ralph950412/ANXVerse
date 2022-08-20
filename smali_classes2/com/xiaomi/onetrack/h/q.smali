@@ -23,9 +23,9 @@
 
 .field public static final j:I = 0x4
 
-.field public static k:Z = false
+.field public static k:Z
 
-.field public static l:Z = false
+.field public static l:Z
 
 
 # direct methods

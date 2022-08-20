@@ -2494,4 +2494,7 @@ to record and edit videos on the go"</string>
     <string name="wideselfie_rotate_to_left_slowly">Rotate the phone to the left</string>
     <string name="wideselfie_rotate_to_right_slowly">Rotate the phone to the right</string>
     <string name="yesterday">Yesterday</string>
+    <string name="back_lisa">3:MI 11 LE</string>
+    <string name="back_lisa_global">3:XIAOMI 11 LITE 5G NE</string>
+    <string name="back_lisa_india">3:XIAOMI 11 LITE NE</string>
 </resources>

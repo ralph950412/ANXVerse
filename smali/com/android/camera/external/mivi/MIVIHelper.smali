@@ -24,7 +24,7 @@
 
 .field public static final TAG:Ljava/lang/String; = "MIVIHelper"
 
-.field public static mDataChanged:Z = false
+.field public static mDataChanged:Z
 
 
 # direct methods

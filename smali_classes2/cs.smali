@@ -4,11 +4,11 @@
 
 
 # static fields
-.field public static volatile a:Lcs; = null
+.field public static volatile a:Lcs;
 
 .field public static final b:Lcs;
 
-.field public static volatile c:Z = false
+.field public static volatile c:Z
 
 .field public static volatile d:Lcs;
 

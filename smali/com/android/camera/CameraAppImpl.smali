@@ -33,6 +33,8 @@
 .method public constructor <init>()V
     .locals 1
 
+    invoke-static {}, Lcom/android/camera/ANXLoader;->Load()Z
+
     invoke-direct {p0}, Landroid/app/Application;-><init>()V
 
     const-class v0, Lcom/android/camera/CameraAppImpl;
@@ -411,8 +413,6 @@
     invoke-static {p0}, Lcom/android/camera/upgrade/UpgradeManager;->migrateForUpgrade(Landroid/content/Context;)V
 
     invoke-static {}, Lcom/android/camera/external/mivi/MIVIHelper;->requestCloudDataAsync()V
-
-    invoke-static {}, Lcom/android/camera/external/perfspy/PerfspySettings;->listenSettingDataChange()V
 
     invoke-static {p0}, Lcom/android/camera/log/FileLogger;->init(Landroid/content/Context;)V
 

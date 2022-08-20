@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0Oo;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0OO;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -7,18 +7,18 @@
 
 
 # static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0Oo;
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0OO;
 
 
 # direct methods
 .method static synthetic constructor <clinit>()V
     .locals 1
 
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0Oo;
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0OO;
 
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0Oo;-><init>()V
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0OO;-><init>()V
 
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0Oo;->OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0Oo;
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0OO;->OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/OooO0OO;
 
     return-void
 .end method
@@ -36,9 +36,9 @@
 .method public final accept(Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Lcom/android/camera/dualvideo/render/RenderManager;
+    check-cast p1, Lcom/android/camera/dualvideo/remote/setupwizard/SetupWizard;
 
-    invoke-virtual {p1}, Lcom/android/camera/dualvideo/render/RenderManager;->updateTextureId()V
+    invoke-virtual {p1}, Lcom/android/camera/dualvideo/remote/setupwizard/SetupWizard;->showHomeDialog()V
 
     return-void
 .end method

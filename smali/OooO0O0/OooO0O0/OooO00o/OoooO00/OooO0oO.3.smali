@@ -1,44 +1,40 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oO;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oo;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Landroid/view/View$OnTouchListener;
+.implements Landroid/view/View$OnClickListener;
 
 
-# static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oO;
+# instance fields
+.field private final synthetic OooO00o:Lcom/android/camera/fragment/FragmentBottomPopupTips;
+
+.field private final synthetic OooO0O0:Lcom/android/camera/fragment/modeui/panelentrance/BasePanelEntranceItem;
 
 
 # direct methods
-.method static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oO;
-
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oO;-><init>()V
-
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oO;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oO;
-
-    return-void
-.end method
-
-.method private synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lcom/android/camera/fragment/FragmentBottomPopupTips;Lcom/android/camera/fragment/modeui/panelentrance/BasePanelEntranceItem;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oo;->OooO00o:Lcom/android/camera/fragment/FragmentBottomPopupTips;
+
+    iput-object p2, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oo;->OooO0O0:Lcom/android/camera/fragment/modeui/panelentrance/BasePanelEntranceItem;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
-    .locals 0
+.method public final onClick(Landroid/view/View;)V
+    .locals 2
 
-    invoke-static {p1, p2}, Lcom/android/camera/fragment/FragmentBeauty;->OooO00o(Landroid/view/View;Landroid/view/MotionEvent;)Z
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oo;->OooO00o:Lcom/android/camera/fragment/FragmentBottomPopupTips;
 
-    move-result p1
+    iget-object v1, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooO0oo;->OooO0O0:Lcom/android/camera/fragment/modeui/panelentrance/BasePanelEntranceItem;
 
-    return p1
+    invoke-virtual {v0, v1, p1}, Lcom/android/camera/fragment/FragmentBottomPopupTips;->OooO00o(Lcom/android/camera/fragment/modeui/panelentrance/BasePanelEntranceItem;Landroid/view/View;)V
+
+    return-void
 .end method

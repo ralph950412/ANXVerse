@@ -47,7 +47,7 @@
 
 .field public static final TAG:Ljava/lang/String; = "AmbilightModule"
 
-.field public static mSupportAutoAe:Z = false
+.field public static mSupportAutoAe:Z
 
 
 # instance fields

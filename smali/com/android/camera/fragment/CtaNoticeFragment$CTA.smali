@@ -15,7 +15,7 @@
 
 
 # static fields
-.field public static sCanConnectToNetworkTemp:Z = false
+.field public static sCanConnectToNetworkTemp:Z
 
 
 # direct methods

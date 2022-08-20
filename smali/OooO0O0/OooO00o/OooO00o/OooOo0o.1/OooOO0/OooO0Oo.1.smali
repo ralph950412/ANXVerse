@@ -1,34 +1,20 @@
-.class public LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0/OooO0Oo;
+.class public LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0/OooO0OO;
 .super LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0/OooOOO;
-.source "AnimatableIntegerValue.java"
+.source "AnimatableGradientColorValue.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0/OooOOO<",
-        "Ljava/lang/Integer;",
-        "Ljava/lang/Integer;",
+        "LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO0OO;",
+        "LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO0OO;",
         ">;"
     }
 .end annotation
 
 
 # direct methods
-.method public constructor <init>()V
-    .locals 1
-
-    const/16 v0, 0x64
-
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v0
-
-    invoke-direct {p0, v0}, LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0/OooOOO;-><init>(Ljava/lang/Object;)V
-
-    return-void
-.end method
-
 .method public constructor <init>(Ljava/util/List;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
@@ -36,7 +22,7 @@
             "(",
             "Ljava/util/List<",
             "LOooO0O0/OooO00o/OooO00o/OooOoOO/OooO00o<",
-            "Ljava/lang/Integer;",
+            "LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO0OO;",
             ">;>;)V"
         }
     .end annotation
@@ -54,17 +40,17 @@
         value = {
             "()",
             "LOooO0O0/OooO00o/OooO00o/OooOo0/OooO0OO/OooO00o<",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Integer;",
+            "LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO0OO;",
+            "LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO0OO;",
             ">;"
         }
     .end annotation
 
-    new-instance v0, LOooO0O0/OooO00o/OooO00o/OooOo0/OooO0OO/OooO0o0;
+    new-instance v0, LOooO0O0/OooO00o/OooO00o/OooOo0/OooO0OO/OooO0Oo;
 
     iget-object v1, p0, LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0/OooOOO;->OooO00o:Ljava/util/List;
 
-    invoke-direct {v0, v1}, LOooO0O0/OooO00o/OooO00o/OooOo0/OooO0OO/OooO0o0;-><init>(Ljava/util/List;)V
+    invoke-direct {v0, v1}, LOooO0O0/OooO00o/OooO00o/OooOo0/OooO0OO/OooO0Oo;-><init>(Ljava/util/List;)V
 
     return-object v0
 .end method

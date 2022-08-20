@@ -1,24 +1,24 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0o;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0O;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/util/function/Consumer;
+.implements Ljava/util/function/Function;
 
 
 # static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0o;
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0O;
 
 
 # direct methods
 .method static synthetic constructor <clinit>()V
     .locals 1
 
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0o;
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0O;
 
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0o;-><init>()V
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0O;-><init>()V
 
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0o;->OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0o;
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0O;->OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/o0000o0O;
 
     return-void
 .end method
@@ -33,12 +33,14 @@
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;)V
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    check-cast p1, Lcom/android/camera/module/encoder/RenderHandler;
+    check-cast p1, Lcom/android/camera/dualvideo/util/UserSelectData;
 
-    invoke-virtual {p1}, Lcom/android/camera/module/encoder/RenderHandler;->release()V
+    invoke-static {p1}, Lcom/android/camera/dualvideo/render/RenderUtil;->OooO00o(Lcom/android/camera/dualvideo/util/UserSelectData;)Lcom/android/camera/dualvideo/render/LayoutType;
 
-    return-void
+    move-result-object p1
+
+    return-object p1
 .end method

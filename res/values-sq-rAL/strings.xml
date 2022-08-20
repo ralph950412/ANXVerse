@@ -1756,7 +1756,7 @@ Modaliteti i këndit ultra i gjerë të ndihmon kur nuk mund të lëvizësh më 
     <string name="user_define_watermark_cancel">Anulo</string>
     <string name="user_define_watermark_save">Ruaj</string>
     <string name="user_disagree">Nuk pajtohem</string>
-    <string name="user_notice_identify_summary_format">Përpara se të përdorësh kamerën, duhet të pranosh Marrëveshjen e Përdoruesit <a href="http://www.miui.com/res/doc/eula.html?lang=sq_AL"></a> tonë dhe Politikën e Privatësisë <a href="http://www.miui.com/res/doc/privacy.html?lang=sq_AL"></a>. Gjithashtu kamera duhet lidhur me internetin për të punuar normalisht. Prano?</string>
+    <string name="user_notice_identify_summary_format">Përpara se të përdorësh kamerën, duhet të pranosh Marrëveshjen e Përdoruesit tonë dhe Politikën e Privatësisë . Gjithashtu kamera duhet lidhur me internetin për të punuar normalisht. Prano?</string>
     <string name="user_notice_title">Termat dhe Kushtet</string>
     <string name="video_beauty_tip">Zbukurimi për videot</string>
     <string name="video_beauty_tip_beautification">Filtra</string>

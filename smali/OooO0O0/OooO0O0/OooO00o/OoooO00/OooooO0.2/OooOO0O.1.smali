@@ -1,46 +1,36 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OooooO0/OooOO0O;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OooooO0/OooOO0o;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Lio/reactivex/functions/Function;
+.implements Lio/reactivex/functions/Consumer;
 
 
-# static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OooooO0/OooOO0O;
+# instance fields
+.field private final synthetic OooO00o:Lcom/android/camera/fragment/vv/FragmentVVPreview;
 
 
 # direct methods
-.method static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooooO0/OooOO0O;
-
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooooO0/OooOO0O;-><init>()V
-
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooooO0/OooOO0O;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OooooO0/OooOO0O;
-
-    return-void
-.end method
-
-.method private synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lcom/android/camera/fragment/vv/FragmentVVPreview;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooooO0/OooOO0o;->OooO00o:Lcom/android/camera/fragment/vv/FragmentVVPreview;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+.method public final accept(Ljava/lang/Object;)V
+    .locals 1
 
-    check-cast p1, Lcom/android/camera/multi/PluginInfo;
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OooooO0/OooOO0o;->OooO00o:Lcom/android/camera/fragment/vv/FragmentVVPreview;
 
-    invoke-static {p1}, Lcom/android/camera/fragment/vv/FragmentVVGallery;->OooO00o(Lcom/android/camera/multi/PluginInfo;)Lio/reactivex/ObservableSource;
+    check-cast p1, Lcom/android/camera/data/observeable/RxData$DataWrap;
 
-    move-result-object p1
+    invoke-virtual {v0, p1}, Lcom/android/camera/fragment/vv/FragmentVVPreview;->OooO00o(Lcom/android/camera/data/observeable/RxData$DataWrap;)V
 
-    return-object p1
+    return-void
 .end method

@@ -51,7 +51,7 @@
 
 .field public static final q:I = 0x14
 
-.field public static final r:Z = false
+.field public static final r:Z
 
 .field public static final s:Ljava/util/concurrent/atomic/AtomicBoolean;
 

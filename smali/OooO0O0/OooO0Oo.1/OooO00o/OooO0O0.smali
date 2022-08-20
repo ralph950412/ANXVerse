@@ -31,7 +31,7 @@
 
 .field public static final o00o0Ooo:Ljava/lang/String;
 
-.field public static final o00o0o00:Z = false
+.field public static final o00o0o00:Z
 
 
 # instance fields

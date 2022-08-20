@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000o;
+.class public final synthetic LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000O;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -7,18 +7,18 @@
 
 
 # static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000o;
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000O;
 
 
 # direct methods
 .method static synthetic constructor <clinit>()V
     .locals 1
 
-    new-instance v0, LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000o;
+    new-instance v0, LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000O;
 
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000o;-><init>()V
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000O;-><init>()V
 
-    sput-object v0, LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000o;->OooO00o:LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000o;
+    sput-object v0, LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000O;->OooO00o:LOooO0O0/OooO0O0/OooO0O0/OooO0oO/o00o000O;
 
     return-void
 .end method
@@ -36,7 +36,7 @@
 .method public final get()Ljava/lang/Object;
     .locals 1
 
-    invoke-static {}, Lcom/android/camera2/vendortag/CaptureRequestVendorTags;->o0000OOO()Ljava/lang/String;
+    invoke-static {}, Lcom/android/camera2/vendortag/CaptureRequestVendorTags;->o00oO0o()Ljava/lang/String;
 
     move-result-object v0
 

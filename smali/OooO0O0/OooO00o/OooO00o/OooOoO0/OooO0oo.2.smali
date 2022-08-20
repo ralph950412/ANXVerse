@@ -1,61 +1,21 @@
-.class public LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oo;
+.class public LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oO;
 .super Ljava/lang/Object;
-.source "DocumentDataParser.java"
-
-# interfaces
-.implements LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0OO;
-
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0OO<",
-        "LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0;",
-        ">;"
-    }
-.end annotation
+.source "ContentModelParser.java"
 
 
 # static fields
-.field public static final OooO00o:LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oo;
-
-.field public static final OooO0O0:LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO$OooO00o;
+.field public static OooO00o:LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO$OooO00o;
 
 
 # direct methods
 .method public static constructor <clinit>()V
-    .locals 12
+    .locals 2
 
-    new-instance v0, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oo;
+    const-string/jumbo v0, "ty"
 
-    invoke-direct {v0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oo;-><init>()V
+    const-string v1, "d"
 
-    sput-object v0, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oo;->OooO00o:LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oo;
-
-    const-string/jumbo v1, "t"
-
-    const-string v2, "f"
-
-    const-string/jumbo v3, "s"
-
-    const-string v4, "j"
-
-    const-string/jumbo v5, "tr"
-
-    const-string v6, "lh"
-
-    const-string v7, "ls"
-
-    const-string v8, "fc"
-
-    const-string/jumbo v9, "sc"
-
-    const-string/jumbo v10, "sw"
-
-    const-string/jumbo v11, "of"
-
-    filled-new-array/range {v1 .. v11}, [Ljava/lang/String;
+    filled-new-array {v0, v1}, [Ljava/lang/String;
 
     move-result-object v0
 
@@ -63,7 +23,7 @@
 
     move-result-object v0
 
-    sput-object v0, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oo;->OooO0O0:LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO$OooO00o;
+    sput-object v0, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oO;->OooO00o:LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO$OooO00o;
 
     return-void
 .end method
@@ -76,198 +36,404 @@
     return-void
 .end method
 
-
-# virtual methods
-.method public OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;F)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0;
-    .locals 17
+.method public static OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO0O0;
+    .locals 7
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
     .end annotation
 
-    sget-object v0, LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0$OooO00o;->OooO0OO:LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0$OooO00o;
+    invoke-virtual {p0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0O0()V
 
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0O0()V
+    const/4 v0, 0x2
 
-    const/4 v1, 0x0
-
-    const/4 v2, 0x0
-
-    const/4 v3, 0x0
-
-    const/4 v4, 0x1
-
-    move-object v9, v0
-
-    move-object v6, v1
-
-    move-object v7, v6
-
-    move v10, v2
-
-    move v13, v10
-
-    move v14, v13
-
-    move v8, v3
-
-    move v11, v8
-
-    move v12, v11
-
-    move v15, v12
-
-    move/from16 v16, v4
+    move v1, v0
 
     :goto_0
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0o()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    sget-object v0, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oo;->OooO0O0:LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO$OooO00o;
-
-    move-object/from16 v1, p1
-
-    invoke-virtual {v1, v0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO$OooO00o;)I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooOO0o()V
-
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooOOO0()V
-
-    goto :goto_0
-
-    :pswitch_0
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0oO()Z
-
-    move-result v16
-
-    goto :goto_0
-
-    :pswitch_1
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0oo()D
-
-    move-result-wide v2
-
-    double-to-float v15, v2
-
-    goto :goto_0
-
-    :pswitch_2
-    invoke-static/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooOOOo;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;)I
-
-    move-result v14
-
-    goto :goto_0
-
-    :pswitch_3
-    invoke-static/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooOOOo;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;)I
-
-    move-result v13
-
-    goto :goto_0
-
-    :pswitch_4
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0oo()D
-
-    move-result-wide v2
-
-    double-to-float v12, v2
-
-    goto :goto_0
-
-    :pswitch_5
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0oo()D
-
-    move-result-wide v2
-
-    double-to-float v11, v2
-
-    goto :goto_0
-
-    :pswitch_6
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO()I
-
-    move-result v10
-
-    goto :goto_0
-
-    :pswitch_7
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO()I
-
-    move-result v0
-
-    sget-object v2, LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0$OooO00o;->OooO0OO:LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0$OooO00o;
-
-    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {p0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0o()Z
 
     move-result v2
 
-    if-gt v0, v2, :cond_1
+    const/4 v3, 0x1
 
-    if-gez v0, :cond_0
+    const/4 v4, 0x0
 
-    goto :goto_1
+    if-eqz v2, :cond_2
+
+    sget-object v2, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oO;->OooO00o:LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO$OooO00o;
+
+    invoke-virtual {p0, v2}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO$OooO00o;)I
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    if-eq v2, v3, :cond_0
+
+    invoke-virtual {p0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooOO0o()V
+
+    invoke-virtual {p0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooOOO0()V
+
+    goto :goto_0
 
     :cond_0
-    invoke-static {}, LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0$OooO00o;->values()[LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0$OooO00o;
+    invoke-virtual {p0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO()I
 
-    move-result-object v2
-
-    aget-object v9, v2, v0
+    move-result v1
 
     goto :goto_0
 
     :cond_1
-    :goto_1
-    sget-object v9, LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0$OooO00o;->OooO0OO:LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0$OooO00o;
+    invoke-virtual {p0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooOO0O()Ljava/lang/String;
 
-    goto :goto_0
+    move-result-object v2
 
-    :pswitch_8
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0oo()D
-
-    move-result-wide v2
-
-    double-to-float v8, v2
-
-    goto :goto_0
-
-    :pswitch_9
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooOO0O()Ljava/lang/String;
-
-    move-result-object v7
-
-    goto :goto_0
-
-    :pswitch_a
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooOO0O()Ljava/lang/String;
-
-    move-result-object v6
-
-    goto :goto_0
+    goto :goto_1
 
     :cond_2
-    move-object/from16 v1, p1
+    move-object v2, v4
 
-    invoke-virtual/range {p1 .. p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0Oo()V
+    :goto_1
+    if-nez v2, :cond_3
 
-    new-instance v0, LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0;
+    return-object v4
 
-    move-object v5, v0
+    :cond_3
+    const/4 v5, -0x1
 
-    invoke-direct/range {v5 .. v16}, LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0;-><init>(Ljava/lang/String;Ljava/lang/String;FLOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0$OooO00o;IFFIIFZ)V
+    invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
 
-    return-object v0
+    move-result v6
+
+    sparse-switch v6, :sswitch_data_0
+
+    goto/16 :goto_2
+
+    :sswitch_0
+    const-string/jumbo v0, "tr"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/4 v0, 0x5
+
+    goto/16 :goto_3
+
+    :sswitch_1
+    const-string/jumbo v0, "tm"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/16 v0, 0x9
+
+    goto/16 :goto_3
+
+    :sswitch_2
+    const-string/jumbo v0, "st"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    move v0, v3
+
+    goto/16 :goto_3
+
+    :sswitch_3
+    const-string/jumbo v0, "sr"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/16 v0, 0xa
+
+    goto :goto_3
+
+    :sswitch_4
+    const-string/jumbo v0, "sh"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/4 v0, 0x6
+
+    goto :goto_3
+
+    :sswitch_5
+    const-string/jumbo v0, "rp"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/16 v0, 0xc
+
+    goto :goto_3
+
+    :sswitch_6
+    const-string/jumbo v0, "rc"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/16 v0, 0x8
+
+    goto :goto_3
+
+    :sswitch_7
+    const-string/jumbo v0, "mm"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/16 v0, 0xb
+
+    goto :goto_3
+
+    :sswitch_8
+    const-string v3, "gs"
+
+    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_4
+
+    goto :goto_3
+
+    :sswitch_9
+    const-string v0, "gr"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/4 v0, 0x0
+
+    goto :goto_3
+
+    :sswitch_a
+    const-string v0, "gf"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/4 v0, 0x4
+
+    goto :goto_3
+
+    :sswitch_b
+    const-string v0, "fl"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/4 v0, 0x3
+
+    goto :goto_3
+
+    :sswitch_c
+    const-string v0, "el"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    const/4 v0, 0x7
+
+    goto :goto_3
+
+    :cond_4
+    :goto_2
+    move v0, v5
+
+    :goto_3
+    packed-switch v0, :pswitch_data_0
+
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v0, "Unknown shape type "
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, LOooO0O0/OooO00o/OooO00o/OooOoO/OooO0Oo;->OooO0O0(Ljava/lang/String;)V
+
+    goto :goto_4
+
+    :pswitch_0
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooOoo;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooOO0O;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_1
+    invoke-static {p0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooOo0o;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO0oo;
+
+    move-result-object v4
+
+    const-string v0, "Animation contains merge paths. Merge paths are only supported on KitKat+ and must be manually enabled by calling enableMergePathsForKitKatAndAbove()."
+
+    invoke-virtual {p1, v0}, LOooO0O0/OooO00o/OooO00o/OooO0o;->OooO00o(Ljava/lang/String;)V
+
+    goto :goto_4
+
+    :pswitch_2
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooOoOO;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_3
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0O0;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooOOo0;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_4
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooOoo0;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooOO0;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_5
+    invoke-static {p0, p1, v1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0o0;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;I)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO00o;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_6
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo00o;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooOOOO;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_7
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0OO;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0/OooOO0o;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_8
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooOOO0;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO0Oo;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_9
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo000;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooOOO0;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_a
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooOOO;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooO0o0;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_b
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooOOOo;
+
+    move-result-object v4
+
+    goto :goto_4
+
+    :pswitch_c
+    invoke-static {p0, p1}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo00O;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;LOooO0O0/OooO00o/OooO00o/OooO0o;)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooOO0O/OooOOO;
+
+    move-result-object v4
+
+    :goto_4
+    invoke-virtual {p0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0o()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_5
+
+    invoke-virtual {p0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooOOO0()V
+
+    goto :goto_4
+
+    :cond_5
+    invoke-virtual {p0}, LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;->OooO0Oo()V
+
+    return-object v4
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0xca7 -> :sswitch_c
+        0xcc6 -> :sswitch_b
+        0xcdf -> :sswitch_a
+        0xceb -> :sswitch_9
+        0xcec -> :sswitch_8
+        0xda0 -> :sswitch_7
+        0xe31 -> :sswitch_6
+        0xe3e -> :sswitch_5
+        0xe55 -> :sswitch_4
+        0xe5f -> :sswitch_3
+        0xe61 -> :sswitch_2
+        0xe79 -> :sswitch_1
+        0xe7e -> :sswitch_0
+    .end sparse-switch
 
     :pswitch_data_0
     .packed-switch 0x0
+        :pswitch_c
+        :pswitch_b
         :pswitch_a
         :pswitch_9
         :pswitch_8
@@ -280,19 +446,4 @@
         :pswitch_1
         :pswitch_0
     .end packed-switch
-.end method
-
-.method public bridge synthetic OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;F)Ljava/lang/Object;
-    .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    invoke-virtual {p0, p1, p2}, LOooO0O0/OooO00o/OooO00o/OooOoO0/OooO0oo;->OooO00o(LOooO0O0/OooO00o/OooO00o/OooOoO0/Oooo0o0/OooO0OO;F)LOooO0O0/OooO00o/OooO00o/OooOo0o/OooO0O0;
-
-    move-result-object p1
-
-    return-object p1
 .end method

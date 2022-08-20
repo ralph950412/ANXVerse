@@ -13,17 +13,17 @@
 
 .field public static final PROP_VALUE_MAX:I = 0x5b
 
-.field public static classSystemProperties:Ljava/lang/Class; = null
+.field public static classSystemProperties:Ljava/lang/Class;
 
-.field public static isSupportGet:Z = false
+.field public static isSupportGet:Z
 
-.field public static isSupportGetBoolean:Z = false
+.field public static isSupportGetBoolean:Z
 
-.field public static isSupportGetInt:Z = false
+.field public static isSupportGetInt:Z
 
-.field public static isSupportGetLong:Z = false
+.field public static isSupportGetLong:Z
 
-.field public static isSupportSet:Z = false
+.field public static isSupportSet:Z
 
 
 # direct methods

@@ -1,9 +1,9 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OooO0oo;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OooO0oO;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Ljava/util/function/Consumer;
 
 
 # instance fields
@@ -16,19 +16,21 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OooO0oo;->OooO00o:Lcom/android/camera/Camera;
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OooO0oO;->OooO00o:Lcom/android/camera/Camera;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
+.method public final accept(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OooO0oo;->OooO00o:Lcom/android/camera/Camera;
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OooO0oO;->OooO00o:Lcom/android/camera/Camera;
 
-    invoke-virtual {v0}, Lcom/android/camera/Camera;->OooO0Oo()V
+    check-cast p1, Ljava/lang/String;
+
+    invoke-static {v0, p1}, Lcom/android/camera/Camera;->OooO00o(Lcom/android/camera/Camera;Ljava/lang/String;)V
 
     return-void
 .end method

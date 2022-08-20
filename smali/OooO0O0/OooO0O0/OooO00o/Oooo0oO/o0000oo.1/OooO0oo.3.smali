@@ -1,48 +1,34 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooO0oo;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooO0oO;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/util/function/Consumer;
+.implements Landroid/graphics/SurfaceTexture$OnFrameAvailableListener;
 
 
 # instance fields
-.field private final synthetic OooO00o:Lcom/android/camera/dualvideo/render/CameraItem;
-
-.field private final synthetic OooO0O0:Lcom/android/camera/dualvideo/render/MiscTextureManager;
-
-.field private final synthetic OooO0OO:Lcom/android/gallery3d/ui/GLCanvas;
+.field private final synthetic OooO00o:Lcom/android/camera/dualvideo/render/AuxRenderSource;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/android/camera/dualvideo/render/CameraItem;Lcom/android/camera/dualvideo/render/MiscTextureManager;Lcom/android/gallery3d/ui/GLCanvas;)V
+.method public synthetic constructor <init>(Lcom/android/camera/dualvideo/render/AuxRenderSource;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooO0oo;->OooO00o:Lcom/android/camera/dualvideo/render/CameraItem;
-
-    iput-object p2, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooO0oo;->OooO0O0:Lcom/android/camera/dualvideo/render/MiscTextureManager;
-
-    iput-object p3, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooO0oo;->OooO0OO:Lcom/android/gallery3d/ui/GLCanvas;
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooO0oO;->OooO00o:Lcom/android/camera/dualvideo/render/AuxRenderSource;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;)V
-    .locals 3
+.method public final onFrameAvailable(Landroid/graphics/SurfaceTexture;)V
+    .locals 1
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooO0oo;->OooO00o:Lcom/android/camera/dualvideo/render/CameraItem;
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooO0oO;->OooO00o:Lcom/android/camera/dualvideo/render/AuxRenderSource;
 
-    iget-object v1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooO0oo;->OooO0O0:Lcom/android/camera/dualvideo/render/MiscTextureManager;
-
-    iget-object v2, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooO0oo;->OooO0OO:Lcom/android/gallery3d/ui/GLCanvas;
-
-    check-cast p1, Ljava/lang/String;
-
-    invoke-virtual {v0, v1, v2, p1}, Lcom/android/camera/dualvideo/render/CameraItem;->OooO00o(Lcom/android/camera/dualvideo/render/MiscTextureManager;Lcom/android/gallery3d/ui/GLCanvas;Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/android/camera/dualvideo/render/AuxRenderSource;->OooO00o(Landroid/graphics/SurfaceTexture;)V
 
     return-void
 .end method

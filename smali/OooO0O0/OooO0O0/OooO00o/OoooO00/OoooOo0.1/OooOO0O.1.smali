@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0O;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0o;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -7,18 +7,18 @@
 
 
 # static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0O;
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0o;
 
 
 # direct methods
 .method static synthetic constructor <clinit>()V
     .locals 1
 
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0O;
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0o;
 
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0O;-><init>()V
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0o;-><init>()V
 
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0O;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0O;
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0o;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooOo0/OooOO0o;
 
     return-void
 .end method
@@ -36,9 +36,9 @@
 .method public final accept(Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Ljava/lang/String;
+    check-cast p1, Ljava/lang/Throwable;
 
-    invoke-static {p1}, Lcom/android/camera/fragment/music/MusicOperation;->OooO0O0(Ljava/lang/String;)V
+    invoke-static {p1}, Lcom/android/camera/fragment/music/MusicOperation;->OooO0O0(Ljava/lang/Throwable;)V
 
     return-void
 .end method

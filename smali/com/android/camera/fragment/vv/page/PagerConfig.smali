@@ -10,7 +10,7 @@
 
 .field public static sMillisecondsPreInch:F = 60.0f
 
-.field public static sShowLog:Z = false
+.field public static sShowLog:Z
 
 
 # direct methods

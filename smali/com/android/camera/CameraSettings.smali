@@ -782,9 +782,9 @@
 
 .field public static final sCameraChangeManager:Lcom/android/camera/ChangeManager;
 
-.field public static sCroppedIfNeeded:Z = false
+.field public static sCroppedIfNeeded:Z
 
-.field public static sGoolgeLensAvilability:Z = false
+.field public static sGoolgeLensAvilability:Z
 
 .field public static sLensIndex:I
 

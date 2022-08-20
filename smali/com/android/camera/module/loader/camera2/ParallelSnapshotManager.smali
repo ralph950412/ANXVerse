@@ -45,7 +45,7 @@
 
 .field public static final MSG_SESSION_CREATE_SUCCEED:I = 0xc
 
-.field public static isParallelTagOpen:Z = false
+.field public static isParallelTagOpen:Z
 
 .field public static sInstance:Lcom/android/camera/module/loader/camera2/ParallelSnapshotManager;
 

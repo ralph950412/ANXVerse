@@ -10,7 +10,7 @@
 
 .field public static final OooO0OO:I = 0x14
 
-.field public static OooO0Oo:Z = false
+.field public static OooO0Oo:Z
 
 .field public static OooO0o:[J
 

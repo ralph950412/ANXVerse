@@ -1,36 +1,42 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0OoOo0;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOO0;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/util/function/Consumer;
+.implements Lcom/android/camera/statistic/CameraStatUtils$ParameterBuilder;
 
 
-# instance fields
-.field private final synthetic OooO00o:Lcom/android/camera/dualvideo/DualVideoModuleBase;
+# static fields
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOO0;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/android/camera/dualvideo/DualVideoModuleBase;)V
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOO0;
+
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOO0;-><init>()V
+
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOO0;->OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0ooOO0;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0OoOo0;->OooO00o:Lcom/android/camera/dualvideo/DualVideoModuleBase;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;)V
-    .locals 1
+.method public final update(Ljava/util/Map;)V
+    .locals 0
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0OoOo0;->OooO00o:Lcom/android/camera/dualvideo/DualVideoModuleBase;
-
-    check-cast p1, Lcom/android/camera2/Camera2Proxy;
-
-    invoke-virtual {v0, p1}, Lcom/android/camera/dualvideo/DualVideoModuleBase;->OooO0OO(Lcom/android/camera2/Camera2Proxy;)V
+    invoke-static {p1}, Lcom/android/camera/dualvideo/DualVideoRecordModule;->OooO0Oo(Ljava/util/Map;)V
 
     return-void
 .end method

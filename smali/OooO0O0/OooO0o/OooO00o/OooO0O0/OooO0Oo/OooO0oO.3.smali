@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0o/OooO00o/OooO0O0/OooO0Oo/OooO0oO;
+.class public final synthetic LOooO0O0/OooO0o/OooO00o/OooO0O0/OooO0Oo/OooO0oo;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -7,20 +7,16 @@
 
 
 # instance fields
-.field private final synthetic OooO00o:Lcom/xiaomi/camera/device/callable/OpenCameraCallable$1;
-
-.field private final synthetic OooO0O0:Ljava/lang/String;
+.field private final synthetic OooO00o:Lcom/xiaomi/camera/device/callable/OpenCameraCallable;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/xiaomi/camera/device/callable/OpenCameraCallable$1;Ljava/lang/String;)V
+.method public synthetic constructor <init>(Lcom/xiaomi/camera/device/callable/OpenCameraCallable;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, LOooO0O0/OooO0o/OooO00o/OooO0O0/OooO0Oo/OooO0oO;->OooO00o:Lcom/xiaomi/camera/device/callable/OpenCameraCallable$1;
-
-    iput-object p2, p0, LOooO0O0/OooO0o/OooO00o/OooO0O0/OooO0Oo/OooO0oO;->OooO0O0:Ljava/lang/String;
+    iput-object p1, p0, LOooO0O0/OooO0o/OooO00o/OooO0O0/OooO0Oo/OooO0oo;->OooO00o:Lcom/xiaomi/camera/device/callable/OpenCameraCallable;
 
     return-void
 .end method
@@ -28,13 +24,11 @@
 
 # virtual methods
 .method public final run()V
-    .locals 2
+    .locals 1
 
-    iget-object v0, p0, LOooO0O0/OooO0o/OooO00o/OooO0O0/OooO0Oo/OooO0oO;->OooO00o:Lcom/xiaomi/camera/device/callable/OpenCameraCallable$1;
+    iget-object v0, p0, LOooO0O0/OooO0o/OooO00o/OooO0O0/OooO0Oo/OooO0oo;->OooO00o:Lcom/xiaomi/camera/device/callable/OpenCameraCallable;
 
-    iget-object v1, p0, LOooO0O0/OooO0o/OooO00o/OooO0O0/OooO0Oo/OooO0oO;->OooO0O0:Ljava/lang/String;
-
-    invoke-virtual {v0, v1}, Lcom/xiaomi/camera/device/callable/OpenCameraCallable$1;->OooO0Oo(Ljava/lang/String;)V
+    invoke-virtual {v0}, Lcom/xiaomi/camera/device/callable/OpenCameraCallable;->OooO00o()V
 
     return-void
 .end method

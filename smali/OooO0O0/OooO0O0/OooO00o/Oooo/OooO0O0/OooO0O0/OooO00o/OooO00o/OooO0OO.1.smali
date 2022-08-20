@@ -1,54 +1,34 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0OO;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0Oo;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Lcom/android/camera/features/mimojis/commen/widget/baseview/OnRecyclerItemClickListener;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field private final synthetic OooO00o:Lcom/android/camera/features/mimojis/mimojias/fragment/edit/EditLevelListAdapter;
-
-.field private final synthetic OooO0O0:Lcom/android/camera/features/mimojis/mimojias/fragment/edit/MimojiAsThumbnailRecyclerAdapter;
-
-.field private final synthetic OooO0OO:I
+.field private final synthetic OooO00o:Lcom/android/camera/features/mimojis/mimojias/fragment/edit/FragmentMimojiAsEdit;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/android/camera/features/mimojis/mimojias/fragment/edit/EditLevelListAdapter;Lcom/android/camera/features/mimojis/mimojias/fragment/edit/MimojiAsThumbnailRecyclerAdapter;I)V
+.method public synthetic constructor <init>(Lcom/android/camera/features/mimojis/mimojias/fragment/edit/FragmentMimojiAsEdit;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0OO;->OooO00o:Lcom/android/camera/features/mimojis/mimojias/fragment/edit/EditLevelListAdapter;
-
-    iput-object p2, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0OO;->OooO0O0:Lcom/android/camera/features/mimojis/mimojias/fragment/edit/MimojiAsThumbnailRecyclerAdapter;
-
-    iput p3, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0OO;->OooO0OO:I
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0Oo;->OooO00o:Lcom/android/camera/features/mimojis/mimojias/fragment/edit/FragmentMimojiAsEdit;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final OnRecyclerItemClickListener(Ljava/lang/Object;ILandroid/view/View;)V
-    .locals 6
+.method public final run()V
+    .locals 1
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0OO;->OooO00o:Lcom/android/camera/features/mimojis/mimojias/fragment/edit/EditLevelListAdapter;
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0Oo;->OooO00o:Lcom/android/camera/features/mimojis/mimojias/fragment/edit/FragmentMimojiAsEdit;
 
-    iget-object v1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0OO;->OooO0O0:Lcom/android/camera/features/mimojis/mimojias/fragment/edit/MimojiAsThumbnailRecyclerAdapter;
-
-    iget v2, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO0O0/OooO0O0/OooO00o/OooO00o/OooO0OO;->OooO0OO:I
-
-    move-object v3, p1
-
-    check-cast v3, Lcom/arcsoft/avatar2/AvatarConfig$ASAvatarConfigInfo;
-
-    move v4, p2
-
-    move-object v5, p3
-
-    invoke-virtual/range {v0 .. v5}, Lcom/android/camera/features/mimojis/mimojias/fragment/edit/EditLevelListAdapter;->OooO00o(Lcom/android/camera/features/mimojis/mimojias/fragment/edit/MimojiAsThumbnailRecyclerAdapter;ILcom/arcsoft/avatar2/AvatarConfig$ASAvatarConfigInfo;ILandroid/view/View;)V
+    invoke-virtual {v0}, Lcom/android/camera/features/mimojis/mimojias/fragment/edit/FragmentMimojiAsEdit;->OooO0Oo()V
 
     return-void
 .end method

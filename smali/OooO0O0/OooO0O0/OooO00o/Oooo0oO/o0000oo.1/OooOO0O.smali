@@ -1,36 +1,46 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOO0O;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOO0o;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/util/function/Consumer;
+.implements Ljava/util/function/Predicate;
 
 
-# instance fields
-.field private final synthetic OooO00o:Lcom/android/camera/dualvideo/render/CameraItemManager$1;
+# static fields
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOO0o;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/android/camera/dualvideo/render/CameraItemManager$1;)V
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOO0o;
+
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOO0o;-><init>()V
+
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOO0o;->OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOO0o;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOO0O;->OooO00o:Lcom/android/camera/dualvideo/render/CameraItemManager$1;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;)V
-    .locals 1
-
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOO0O;->OooO00o:Lcom/android/camera/dualvideo/render/CameraItemManager$1;
+.method public final test(Ljava/lang/Object;)Z
+    .locals 0
 
     check-cast p1, Lcom/android/camera/dualvideo/render/CameraItemInterface;
 
-    invoke-virtual {v0, p1}, Lcom/android/camera/dualvideo/render/CameraItemManager$1;->OooO00o(Lcom/android/camera/dualvideo/render/CameraItemInterface;)V
+    invoke-static {p1}, Lcom/android/camera/dualvideo/render/CameraItemManager$1;->OooO0O0(Lcom/android/camera/dualvideo/render/CameraItemInterface;)Z
 
-    return-void
+    move-result p1
+
+    return p1
 .end method

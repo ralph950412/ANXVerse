@@ -18,7 +18,7 @@
 # static fields
 .field public static final TAG:Ljava/lang/String; = "MoviePlayer"
 
-.field public static final VERBOSE:Z = false
+.field public static final VERBOSE:Z
 
 
 # instance fields

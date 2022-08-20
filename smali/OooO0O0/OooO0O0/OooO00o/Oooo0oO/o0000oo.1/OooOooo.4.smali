@@ -1,38 +1,36 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOooo;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOooO;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/util/function/Predicate;
+.implements Ljava/util/function/Consumer;
 
 
 # instance fields
-.field private final synthetic OooO00o:I
+.field private final synthetic OooO00o:Lcom/android/camera/dualvideo/render/CameraItemManager;
 
 
 # direct methods
-.method public synthetic constructor <init>(I)V
+.method public synthetic constructor <init>(Lcom/android/camera/dualvideo/render/CameraItemManager;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOooo;->OooO00o:I
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOooO;->OooO00o:Lcom/android/camera/dualvideo/render/CameraItemManager;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final test(Ljava/lang/Object;)Z
+.method public final accept(Ljava/lang/Object;)V
     .locals 1
 
-    iget v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOooo;->OooO00o:I
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOooO;->OooO00o:Lcom/android/camera/dualvideo/render/CameraItemManager;
 
     check-cast p1, Lcom/android/camera/dualvideo/render/CameraItemInterface;
 
-    invoke-static {v0, p1}, Lcom/android/camera/dualvideo/render/CameraItemManager;->OooO00o(ILcom/android/camera/dualvideo/render/CameraItemInterface;)Z
+    invoke-virtual {v0, p1}, Lcom/android/camera/dualvideo/render/CameraItemManager;->OooO00o(Lcom/android/camera/dualvideo/render/CameraItemInterface;)V
 
-    move-result p1
-
-    return p1
+    return-void
 .end method

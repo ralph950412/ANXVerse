@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo/OooO00o/OooOOOo;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo/OooO00o/OooOOOO;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -7,16 +7,16 @@
 
 
 # instance fields
-.field private final synthetic OooO00o:Landroid/view/View;
+.field private final synthetic OooO00o:Lcom/android/camera/features/gif/GifMediaPlayer;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroid/view/View;)V
+.method public synthetic constructor <init>(Lcom/android/camera/features/gif/GifMediaPlayer;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO00o/OooOOOo;->OooO00o:Landroid/view/View;
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO00o/OooOOOO;->OooO00o:Lcom/android/camera/features/gif/GifMediaPlayer;
 
     return-void
 .end method
@@ -26,9 +26,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO00o/OooOOOo;->OooO00o:Landroid/view/View;
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo/OooO00o/OooOOOO;->OooO00o:Lcom/android/camera/features/gif/GifMediaPlayer;
 
-    invoke-static {v0}, Lcom/android/camera/features/gif/GifViewPresenter;->OooO00o(Landroid/view/View;)V
+    invoke-virtual {v0}, Lcom/android/camera/features/gif/GifMediaPlayer;->OooO0O0()V
 
     return-void
 .end method

@@ -1,34 +1,36 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/Oooo0o0;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/Oooo0O0;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Lio/reactivex/functions/Action;
+.implements Ljava/util/function/Consumer;
 
 
 # instance fields
-.field private final synthetic OooO00o:Lcom/android/camera/dualvideo/DualVideoModuleBase;
+.field private final synthetic OooO00o:[I
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/android/camera/dualvideo/DualVideoModuleBase;)V
+.method public synthetic constructor <init>([I)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/Oooo0o0;->OooO00o:Lcom/android/camera/dualvideo/DualVideoModuleBase;
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/Oooo0O0;->OooO00o:[I
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
+.method public final accept(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/Oooo0o0;->OooO00o:Lcom/android/camera/dualvideo/DualVideoModuleBase;
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/Oooo0O0;->OooO00o:[I
 
-    invoke-virtual {v0}, Lcom/android/camera/dualvideo/DualVideoModuleBase;->OooO0o()V
+    check-cast p1, Lcom/android/camera2/Camera2Proxy;
+
+    invoke-static {v0, p1}, Lcom/android/camera/dualvideo/DualVideoModuleBase;->OooO00o([ILcom/android/camera2/Camera2Proxy;)V
 
     return-void
 .end method

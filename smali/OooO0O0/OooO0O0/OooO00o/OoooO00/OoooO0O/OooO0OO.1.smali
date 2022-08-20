@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0OO;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0Oo;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -7,18 +7,18 @@
 
 
 # static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0OO;
+.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0Oo;
 
 
 # direct methods
 .method static synthetic constructor <clinit>()V
     .locals 1
 
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0OO;
+    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0Oo;
 
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0OO;-><init>()V
+    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0Oo;-><init>()V
 
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0OO;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0OO;
+    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0Oo;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO0O/OooO0Oo;
 
     return-void
 .end method
@@ -38,7 +38,7 @@
 
     check-cast p1, Lcom/android/camera/fragment/fastmotion/FragmentFastmotionProExtra;
 
-    invoke-static {p1}, Lcom/android/camera/fragment/fastmotion/FragmentFastmotionPro;->OooO0O0(Lcom/android/camera/fragment/fastmotion/FragmentFastmotionProExtra;)V
+    invoke-static {p1}, Lcom/android/camera/fragment/fastmotion/FragmentFastmotionPro;->OooO0Oo(Lcom/android/camera/fragment/fastmotion/FragmentFastmotionProExtra;)V
 
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooooo0/OooOooO/OooO00o/OooO0oo;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooooo0/OooOooO/OooO00o/OooO0oO;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -7,16 +7,16 @@
 
 
 # instance fields
-.field private final synthetic OooO00o:Landroid/graphics/drawable/Drawable;
+.field private final synthetic OooO00o:Lcom/android/camera/ui/drawable/focus/CameraFocusCommonAnimateDrawable;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroid/graphics/drawable/Drawable;)V
+.method public synthetic constructor <init>(Lcom/android/camera/ui/drawable/focus/CameraFocusCommonAnimateDrawable;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooooo0/OooOooO/OooO00o/OooO0oo;->OooO00o:Landroid/graphics/drawable/Drawable;
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooooo0/OooOooO/OooO00o/OooO0oO;->OooO00o:Lcom/android/camera/ui/drawable/focus/CameraFocusCommonAnimateDrawable;
 
     return-void
 .end method
@@ -26,9 +26,9 @@
 .method public final onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 1
 
-    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooooo0/OooOooO/OooO00o/OooO0oo;->OooO00o:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooooo0/OooOooO/OooO00o/OooO0oO;->OooO00o:Lcom/android/camera/ui/drawable/focus/CameraFocusCommonAnimateDrawable;
 
-    invoke-static {v0, p1}, Lcom/android/camera/ui/drawable/focus/CameraFocusPaintCenterIndicator;->OooO00o(Landroid/graphics/drawable/Drawable;Landroid/animation/ValueAnimator;)V
+    invoke-virtual {v0, p1}, Lcom/android/camera/ui/drawable/focus/CameraFocusCommonAnimateDrawable;->OooO0O0(Landroid/animation/ValueAnimator;)V
 
     return-void
 .end method

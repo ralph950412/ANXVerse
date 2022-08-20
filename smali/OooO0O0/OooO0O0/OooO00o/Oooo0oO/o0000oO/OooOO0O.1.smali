@@ -1,4 +1,4 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oO/OooOO0O;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oO/OooOO0o;
 .super Ljava/lang/Object;
 .source "lambda"
 
@@ -16,7 +16,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oO/OooOO0O;->OooO00o:I
+    iput p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oO/OooOO0o;->OooO00o:I
 
     return-void
 .end method
@@ -26,11 +26,11 @@
 .method public final test(Ljava/lang/Object;)Z
     .locals 1
 
-    iget v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oO/OooOO0O;->OooO00o:I
+    iget v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oO/OooOO0o;->OooO00o:I
 
     check-cast p1, Lcom/android/camera/dualvideo/util/DualVideoConfigManager$ConfigItem;
 
-    invoke-static {v0, p1}, Lcom/android/camera/dualvideo/util/DualVideoConfigManager;->OooO0OO(ILcom/android/camera/dualvideo/util/DualVideoConfigManager$ConfigItem;)Z
+    invoke-static {v0, p1}, Lcom/android/camera/dualvideo/util/DualVideoConfigManager;->OooO0Oo(ILcom/android/camera/dualvideo/util/DualVideoConfigManager$ConfigItem;)Z
 
     move-result p1
 

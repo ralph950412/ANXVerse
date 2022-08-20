@@ -1,44 +1,34 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO00/OooO0OO;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO00/OooO0Oo;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Landroid/view/animation/Interpolator;
+.implements Landroid/view/View$OnClickListener;
 
 
-# static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO00/OooO0OO;
+# instance fields
+.field private final synthetic OooO00o:Lcom/android/camera/fragment/dollyZoom/FragmentDollyZoomProcess;
 
 
 # direct methods
-.method static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO00/OooO0OO;
-
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO00/OooO0OO;-><init>()V
-
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO00/OooO0OO;->OooO00o:LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO00/OooO0OO;
-
-    return-void
-.end method
-
-.method private synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lcom/android/camera/fragment/dollyZoom/FragmentDollyZoomProcess;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO00/OooO0Oo;->OooO00o:Lcom/android/camera/fragment/dollyZoom/FragmentDollyZoomProcess;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final getInterpolation(F)F
-    .locals 0
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
 
-    invoke-static {p1}, Lcom/android/camera/fragment/dollyZoom/FragmentDollyZoomProcess;->OooO0O0(F)F
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/OoooO00/OoooO00/OooO0Oo;->OooO00o:Lcom/android/camera/fragment/dollyZoom/FragmentDollyZoomProcess;
 
-    move-result p1
+    invoke-virtual {v0, p1}, Lcom/android/camera/fragment/dollyZoom/FragmentDollyZoomProcess;->OooO00o(Landroid/view/View;)V
 
-    return p1
+    return-void
 .end method

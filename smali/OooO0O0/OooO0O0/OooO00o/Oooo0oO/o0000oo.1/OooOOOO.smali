@@ -1,46 +1,36 @@
-.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOOOO;
+.class public final synthetic LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOOOo;
 .super Ljava/lang/Object;
 .source "lambda"
 
 # interfaces
-.implements Ljava/util/function/Predicate;
+.implements Ljava/util/function/Consumer;
 
 
-# static fields
-.field public static final synthetic OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOOOO;
+# instance fields
+.field private final synthetic OooO00o:Lcom/android/camera/dualvideo/render/CameraItemInterface;
 
 
 # direct methods
-.method static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOOOO;
-
-    invoke-direct {v0}, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOOOO;-><init>()V
-
-    sput-object v0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOOOO;->OooO00o:LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOOOO;
-
-    return-void
-.end method
-
-.method private synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lcom/android/camera/dualvideo/render/CameraItemInterface;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOOOo;->OooO00o:Lcom/android/camera/dualvideo/render/CameraItemInterface;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final test(Ljava/lang/Object;)Z
-    .locals 0
+.method public final accept(Ljava/lang/Object;)V
+    .locals 1
 
-    check-cast p1, Lcom/android/camera/dualvideo/render/CameraItemInterface;
+    iget-object v0, p0, LOooO0O0/OooO0O0/OooO00o/Oooo0oO/o0000oo/OooOOOo;->OooO00o:Lcom/android/camera/dualvideo/render/CameraItemInterface;
 
-    invoke-static {p1}, Lcom/android/camera/dualvideo/render/CameraItemManager;->OooO0oO(Lcom/android/camera/dualvideo/render/CameraItemInterface;)Z
+    check-cast p1, Lcom/android/camera/dualvideo/util/UserSelectData;
 
-    move-result p1
+    invoke-static {v0, p1}, Lcom/android/camera/dualvideo/render/CameraItemManager;->OooO0OO(Lcom/android/camera/dualvideo/render/CameraItemInterface;Lcom/android/camera/dualvideo/util/UserSelectData;)V
 
-    return p1
+    return-void
 .end method
